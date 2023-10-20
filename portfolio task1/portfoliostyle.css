@@ -1,0 +1,62 @@
+.my-image {
+    max-width: 80%;
+    height: 450px;
+    float: right;
+}
+.hero {
+    float: left;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    /* margin: auto; */
+
+}
+nav ul li{
+    margin-left: 4rem;
+    margin: auto;  
+    text-align: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(60, 27, 207);
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    color: blue;
+    display: flexbox;
+}
+body {
+    background-image: url(img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herocontent { 
+    text-align: center;
+    padding-left: 300px;
+    margin-top: 0px;
+    color: antiquewhite;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
